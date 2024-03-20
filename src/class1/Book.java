@@ -23,7 +23,7 @@ public class Book {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your title");
         title = input.next();
-        System.out.println("Emter your author");
+        System.out.println("Enter your author");
         author = input.next();
         System.out.println("Enter your price");
         price = input.nextInt();
