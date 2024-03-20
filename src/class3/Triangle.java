@@ -24,9 +24,12 @@ public class Triangle extends Shape {
 
     @Override
     public void display() {
+        System.out.println("------Triangle------");
         System.out.println("A = " + this.a);
         System.out.println("B = " + this.b);
         System.out.println("C = " + this.c);
+        System.out.println("area:" + getArea());
+        System.out.println("perimeter:" +getPerimeter());
     }
     public void printResult() {
         System.out.println("Area: " + getArea());

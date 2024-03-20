@@ -13,24 +13,19 @@ public class MainClass4 {
             list.add( new Triangle(3, 4, 5) );
             list.add( new Rectangle(4, 5) );
 
+            for (Shape item : list) {
+                item.display();
+            }
             float area = 0;
             for (Shape item : list) {
                 area += item.getArea();
             }
-
             System.out.println("Total area: " + area);
 
             float perimeter = 0;
             for (Shape item : list) {
                 perimeter += item.getPerimeter();
             }
-
             System.out.println("Total perimeter: " + perimeter);
-
-
             }
-
-
-
-
         }

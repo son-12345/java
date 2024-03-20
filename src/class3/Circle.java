@@ -8,7 +8,10 @@ public class Circle extends Shape {
     }
 
     public void display() {
+        System.out.println("------Circle------");
         System.out.println("Radius: " + this.radius);
+        System.out.println("area:" + getArea());
+        System.out.println("perimeter:" +getPerimeter());
     }
     public double getPerimeter() {
         return (float)(Math.PI * 2 * this.radius);

@@ -21,8 +21,11 @@ public class Rectangle extends Shape {
 
     @Override
     public void display() {
+        System.out.println("------Rectangle------");
         System.out.println("Length " + this.length);
         System.out.println("Width " + this.width);
+        System.out.println("area:" + getArea());
+        System.out.println("perimeter:" +getPerimeter());
     }
     public void printResult() {
         System.out.println("Area: " + getArea());
